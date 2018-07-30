@@ -1,0 +1,15 @@
+node {
+    // some block
+    
+    
+    stage('SCM Checkout') {
+    // some block
+}
+stage('SCM Build') {
+    // some block
+    sh 'java -version'
+}
+echo 'hi vivanta'
+
+
+}
