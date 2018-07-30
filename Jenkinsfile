@@ -1,15 +1,13 @@
 node {
-    // some block
-    stage('SCM Checkout') {
-    // some block
-git 'https://github.com/shraddhasable/shraddha-testing.git'
-    
-}
-stage('Build') {
-    // some block
-    echo 'HelloWorld'
-    sh 'java -version'
+  
+ stage('SCM Checkout') {
+   git 'https://github.com/shraddhasable/shraddha-testing.git'
 
+}
+stage('SCM Build') {
+   
+    echo 'hi vivanta'
+    sh 'java -version'
 }
 
 
