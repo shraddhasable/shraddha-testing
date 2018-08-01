@@ -1,5 +1,7 @@
 node {  
     stage('Build') { 
+        sh 'java -version'
+
     echo 'Build Stage'
 
         
